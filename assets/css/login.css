@@ -1,38 +1,7 @@
-:root {
-    --brand-color: #84CC16;
-    --dark-color: #27272A;
-    --mid-color: #52525B;
-    --light-color: #F5F5F5;
 
-    --bs-body-color: #84CC16;
-    --bs-body-bg: #F5f5F5;
-
-    --bs-secondary-color: #27272A;
-    --bs-secondary-bg: #52525B;
-
-    --bs-tertiary-color:#27272A;
-    --bs-tertiary-bg: #84CC16;
-
-    --bs-primary: #84CC16;
-    --bs-secondary: #27272A;
-    --bs-success: #198754;
-    --bs-info: #84CC16;
-    --bs-warning: #ffc107;
-    --bs-danger: #dc3545;
-    --bs-light: #F5F5F5;
-    --bs-dark: #27272A;
-
-    --bs-btn-bg:#84cc16;
-
-}
-.bg-primary {
-    background-color: var(--brand-color) !important;
-  }
-  
-  .bg-light {
-    background-color: var(--light-color) !important;
-  }
-  .btn{
-    background-color: var(--bs-primary);
-    border-color: var(--bs-primary);
+  .capa__login {
+    height: 100vh;
+    background-image: url("../img/fundo-login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
