@@ -1,10 +1,14 @@
-$(document).ready(function() {
+/* Jquery */ 
+$(document).ready(function () {
     // Máscara para o campo de valor
     $('#inputValor').inputmask();
 
     // Inicializando DataTable
     //let table = new DataTable('#tableDespesas');
     $('#tableReceitas').DataTable({
+        buttons: [
+            'excel', 'pdf'
+        ],
         language: {
           lengthMenu: 'Mostrar _MENU_ registros por página',  
           emptyTable: "Nenhum registro encontrado",
@@ -65,6 +69,7 @@ $(document).ready(function() {
             updateState: "Atualizar"
             },
         },
+        
         
     });
     
